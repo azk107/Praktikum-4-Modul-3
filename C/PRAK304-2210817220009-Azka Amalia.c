@@ -9,7 +9,7 @@ int main()
     else if (bil==0){
         printf("Nol\n");
     }
-    else if ((bil>10) && (bil<20)){
+    else if ((bil>=10) && (bil<20)){
         printf("Belasan\n");
     }
     else if ((bil>=20) && (bil<=99)){
